@@ -1,0 +1,12 @@
+{
+    "name": "meme-generator",
+    "version": "1.0.0",
+    "private": true,
+    "description": "萌娃表情包工厂 CLI",
+    "type": "module",
+    "scripts": { "cli": "node scripts/cli.mjs" },
+    "dependencies": {
+      "@imgly/background-removal-node": "^1.4.5",
+      "@napi-rs/canvas": "^0.1.0"
+    }
+  }
